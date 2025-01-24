@@ -1,0 +1,23 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default permissions for Live2D Desktop",
+  "windows": ["main"],
+  "permissions": [
+    {
+      "identifier": "core:window:allow-start-dragging",
+      "description": "Enable window dragging",
+      "windows": ["main"]
+    },
+    {
+      "identifier": "core:window:allow-set-decorations",
+      "description": "Enable window decoration control",
+      "windows": ["main"]
+    },
+    {
+      "identifier": "core:window:allow-set-transparent",
+      "description": "Enable window transparency",
+      "windows": ["main"]
+    }
+  ]
+}
